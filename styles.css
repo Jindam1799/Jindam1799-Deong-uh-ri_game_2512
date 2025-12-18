@@ -20,11 +20,11 @@ body {
   background-color: white;
   border-radius: 25px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  border-top: 10px solid #047857;
-  border-bottom: 10px solid #047857;
+  border-top: 10px solid #124992;
+  border-bottom: 10px solid #124992;
   position: relative;
   overflow: hidden;
-  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='50%25' y='50%25' font-family='Noto Sans KR, sans-serif' font-size='24' font-weight='700' fill='rgba(4, 120, 87, 0.08)' text-anchor='middle' dominant-baseline='middle' transform='rotate(-45 100 100)'%3E%EC%A7%84%EB%8B%B4%EC%A4%91%EA%B5%AD%EC%96%B4%3C/text%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='50%25' y='50%25' font-family='Noto Sans KR, sans-serif' font-size='24' font-weight='700' fill='rgba(18, 73, 146, 0.08)' text-anchor='middle' dominant-baseline='middle' transform='rotate(-45 100 100)'%3E%EC%A7%84%EB%8B%B4%EC%A4%91%EA%B5%AD%EC%96%B4%3C/text%3E%3C/svg%3E");
   background-repeat: repeat;
   background-position: 0 0;
 }
@@ -45,7 +45,7 @@ header h1 {
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
-  color: #047857;
+  color: #124992;
   letter-spacing: 1px;
 }
 
@@ -56,8 +56,8 @@ header:after {
   height: 2px;
   background: repeating-linear-gradient(
     90deg,
-    #047857,
-    #047857 8px,
+    #124992,
+    #124992 8px,
     transparent 8px,
     transparent 16px
   );
@@ -68,7 +68,7 @@ header:after {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: #047857;
+  color: #124992;
   font-size: 0.9rem;
   font-style: bold;
 }
@@ -95,11 +95,11 @@ header:after {
   max-height: 90%;
   overflow-y: auto;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  border: 5px solid #047857;
+  border: 5px solid #124992;
 }
 
 .popup h2 {
-  color: #047857;
+  color: #124992;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -119,7 +119,7 @@ header:after {
 .subtitle-center {
   text-align: center;
   margin-bottom: 1.2rem; /* h5와 다음 요소 사이 간격 조정 */
-  color: #047857; /* h2와 같은 색상 */
+  color: #124992; /* h2와 같은 색상 */
 }
 
 /* 빨간색 강조 텍스트 (굵게) */
@@ -178,9 +178,9 @@ header:after {
 
 .day-button {
   padding: 1rem 1.5rem;
-  background-color: #d1fae5;
-  color: #047857;
-  border: 2px solid #047857;
+  background-color: #dbeafe;
+  color: #124992;
+  border: 2px solid #124992;
   border-radius: 12px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -189,7 +189,7 @@ header:after {
 }
 
 .day-button:hover {
-  background-color: #047857;
+  background-color: #124992;
   color: white;
 }
 
@@ -201,7 +201,7 @@ header:after {
 }
 
 .day-button.active {
-  background-color: #047857;
+  background-color: #124992;
   color: white;
 }
 
@@ -211,7 +211,7 @@ header:after {
   align-items: center;
   margin-bottom: 0.7rem;
   padding: 0.5rem;
-  color: #047857;
+  color: #124992;
 }
 
 .timer-display {
@@ -221,7 +221,7 @@ header:after {
 
 .timer-display h3 {
   font-size: 1.5rem;
-  color: #047857;
+  color: #124992;
   margin-bottom: 0.5rem;
 }
 
@@ -232,20 +232,20 @@ header:after {
 
 .progress-display h3 {
   font-size: 1.5rem;
-  color: #047857;
+  color: #124992;
   margin-bottom: 0.5rem;
 }
 
 .progress {
   height: 100%;
-  background-color: #047857;
+  background-color: #124992;
   width: 0%;
   transition: width 0.5s ease;
   border-radius: 8px;
 }
 
 .sentence-display {
-  background-color: #d1fae5;
+  background-color: #dbeafe;
   padding: 1.2rem;
   border-radius: 15px;
   margin-bottom: 1rem;
@@ -254,22 +254,22 @@ header:after {
   font-size: 1.3rem;
   font-weight: 500;
   color: #333;
-  border: 1px dashed #047857;
+  border: 1px dashed #124992;
 }
 
 /* isFinal: true인 중요한 문장 스타일 */
 .sentence-display .final-sentence,
 #korean-sentence.final-sentence {
-  color: #047857;
+  color: #124992;
   font-weight: 700;
   font-size: 1.4rem;
-  text-shadow: 0 1px 2px rgba(4, 120, 87, 0.1);
+  text-shadow: 0 1px 2px rgba(18, 73, 146, 0.1);
 }
 
 .sentence-display:has(.final-sentence) {
-  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
-  border: 2px solid #047857;
-  box-shadow: 0 6px 12px rgba(4, 120, 87, 0.2);
+  background: linear-gradient(135deg, #dbeafe 0%, #93c5fd 100%);
+  border: 2px solid #124992;
+  box-shadow: 0 6px 12px rgba(18, 73, 146, 0.2);
 }
 
 .instruction {
@@ -300,7 +300,7 @@ header:after {
 /* 배치된 카드 컨테이너 */
 #placed-cards {
   background-color: white;
-  border: 2px dotted #047857;
+  border: 2px dotted #124992;
   min-height: 120px;
   display: flex;
   flex-wrap: wrap;
@@ -324,9 +324,9 @@ header:after {
   display: flex;
   flex-direction: column;
   padding: 0.2rem 1.5rem;
-  background-color: #d1fae5;
-  color: #047857;
-  border: 2px solid #047857;
+  background-color: #dbeafe;
+  color: #124992;
+  border: 2px solid #124992;
   border-radius: 10px;
   cursor: pointer;
   user-select: none;
@@ -335,9 +335,9 @@ header:after {
 }
 
 .card:hover {
-  background-color: #a7f3d0;
+  background-color: #93c5fd;
   transform: translateY(-3px);
-  box-shadow: 0 5px 10px rgba(4, 120, 87, 0.2);
+  box-shadow: 0 5px 10px rgba(18, 73, 146, 0.2);
 }
 
 .card:active {
@@ -384,9 +384,9 @@ header:after {
   text-align: center;
   padding: 1rem 2rem;
   margin-top: 1rem;
-  background-color: #d1fae5;
-  color: #047857;
-  border: 2px solid #047857;
+  background-color: #dbeafe;
+  color: #124992;
+  border: 2px solid #124992;
   border-radius: 10px;
   font-weight: 700;
   font-size: 1.2rem;
@@ -410,9 +410,9 @@ header:after {
 
 button {
   padding: 0.2rem 2rem;
-  background-color: #d1fae5;
-  color: #047857;
-  border: 2px solid #047857;
+  background-color: #dbeafe;
+  color: #124992;
+  border: 2px solid #124992;
   border-radius: 10px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -421,7 +421,7 @@ button {
 }
 
 button:hover {
-  background-color: #047857;
+  background-color: #124992;
   color: white;
 }
 
@@ -430,13 +430,13 @@ button:active {
 }
 
 #start-game {
-  background-color: #047857;
+  background-color: #124992;
   color: white;
   font-size: 1.2rem;
 }
 
 #check-button {
-  background-color: #047857;
+  background-color: #124992;
   color: white;
   height: 44px;
   display: flex;
@@ -444,14 +444,14 @@ button:active {
   align-items: center;
   text-align: center;
   padding: 0.7rem 2rem;
-  border: 2px solid #065f46;
+  border: 2px solid #0d3a6f;
   transition: all 0.3s ease;
 }
 
 #check-button:hover {
-  background-color: #065f46;
+  background-color: #0d3a6f;
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(4, 120, 87, 0.3);
+  box-shadow: 0 4px 8px rgba(18, 73, 146, 0.3);
 }
 
 #reset-button {
@@ -475,18 +475,18 @@ button:active {
 
 #review-sentences {
   margin-top: 1.5rem;
-  background-color: #d1fae5;
+  background-color: #dbeafe;
   border-radius: 15px;
   padding: 1.5rem;
   max-height: 50vh;
   overflow-y: auto;
-  border: 2px solid #047857;
+  border: 2px solid #124992;
 }
 
 .review-item {
   margin-bottom: 1.5rem;
   padding: 1rem;
-  border-bottom: 1px dashed #047857;
+  border-bottom: 1px dashed #124992;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -504,7 +504,7 @@ button:active {
   transform: translate(-0, -50%);
   font-size: 1rem;
   font-weight: 900;
-  color: rgba(4, 120, 87, 0.119);
+  color: rgba(18, 73, 146, 0.119);
   z-index: 3;
   pointer-events: none;
   white-space: nowrap;
@@ -520,7 +520,7 @@ button:active {
   transform: translate(0, -50%);
   font-size: 1rem;
   font-weight: 900;
-  color: rgba(4, 120, 87, 0.119);
+  color: rgba(18, 73, 146, 0.119);
   z-index: 3;
   pointer-events: none;
   white-space: nowrap;
@@ -536,10 +536,10 @@ button:active {
 .sentence-number {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #047857;
+  color: #124992;
   margin-bottom: 0.8rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #047857;
+  border-bottom: 2px solid #124992;
   position: relative;
   z-index: 2;
 }
@@ -550,7 +550,7 @@ button:active {
   padding: 0.8rem;
   background-color: #f8f9fa;
   border-radius: 8px;
-  border-left: 4px solid #047857;
+  border-left: 4px solid #124992;
   position: relative;
   z-index: 2;
 }
@@ -565,7 +565,7 @@ button:active {
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0.3rem;
-  color: #047857;
+  color: #124992;
 }
 
 /* 병음 스타일 */
@@ -653,7 +653,7 @@ button:active {
   }
 
   .container {
-    background-image: url("data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='50%25' y='50%25' font-family='Noto Sans KR, sans-serif' font-size='18' font-weight='700' fill='rgba(4, 120, 87, 0.08)' text-anchor='middle' dominant-baseline='middle' transform='rotate(-45 75 75)'%3E%EC%A7%84%EB%8B%B4%EC%A4%91%EA%B5%AD%EC%96%B4%3C/text%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='50%25' y='50%25' font-family='Noto Sans KR, sans-serif' font-size='18' font-weight='700' fill='rgba(18, 73, 146, 0.08)' text-anchor='middle' dominant-baseline='middle' transform='rotate(-45 75 75)'%3E%EC%A7%84%EB%8B%B4%EC%A4%91%EA%B5%AD%EC%96%B4%3C/text%3E%3C/svg%3E");
   }
 
   .review-item:nth-child(odd)::after,
@@ -671,7 +671,7 @@ button:active {
 
 /* 시작 버튼 스타일 */
 #start-game {
-  background-color: #047857;
+  background-color: #124992;
   color: white;
   font-size: 1.2rem;
   padding: 1rem 2.5rem;
@@ -683,9 +683,9 @@ button:active {
 }
 
 #start-game:hover {
-  background-color: #065f46;
+  background-color: #0d3a6f;
   transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(4, 120, 87, 0.3);
+  box-shadow: 0 4px 8px rgba(18, 73, 146, 0.3);
 }
 
 #start-game:active {
@@ -696,7 +696,7 @@ button:active {
 #day-selection h3 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #047857;
+  color: #124992;
   font-size: 1.5rem;
 }
 
@@ -731,8 +731,8 @@ button:active {
 
 /* 시간 초과 팝업 스타일 */
 #timeout-popup .popup-content {
-  background-color: rgba(209, 250, 229, 0.95);
-  border: 3px solid #047857;
+  background-color: rgba(219, 234, 254, 0.95);
+  border: 3px solid #124992;
   padding: 2rem;
   text-align: center;
   border-radius: 15px;
@@ -741,7 +741,7 @@ button:active {
 }
 
 #timeout-popup h2 {
-  color: #047857;
+  color: #124992;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -764,7 +764,7 @@ button:active {
 }
 
 #completed-day {
-  color: #047857;
+  color: #124992;
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
@@ -775,13 +775,13 @@ button:active {
 .elapsed-time {
   text-align: center;
   font-size: 1.2rem;
-  color: #047857;
+  color: #124992;
   font-weight: 600;
   margin-bottom: 1rem;
   padding: 0.8rem;
-  background-color: #d1fae5;
+  background-color: #dbeafe;
   border-radius: 10px;
-  border: 2px solid #047857;
+  border: 2px solid #124992;
 }
 
 /* 설명 팝업 스타일 */
@@ -790,7 +790,7 @@ button:active {
 }
 
 .explanation-content h2 {
-  color: #047857;
+  color: #124992;
   text-align: center;
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
@@ -801,7 +801,7 @@ button:active {
   padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 1.5rem;
-  border: 2px dashed #047857;
+  border: 2px dashed #124992;
 }
 
 .explanation-text .question {
@@ -821,9 +821,9 @@ button:active {
 .explanation-list li {
   padding: 0.8rem;
   margin-bottom: 0.8rem;
-  background-color: #d1fae5;
+  background-color: #dbeafe;
   border-radius: 8px;
-  border-left: 4px solid #047857;
+  border-left: 4px solid #124992;
   font-size: 1.05rem;
   line-height: 1.6;
   color: #333;
@@ -834,12 +834,12 @@ button:active {
 }
 
 #close-explanation {
-  background-color: #047857;
+  background-color: #124992;
   color: white;
   font-size: 1.2rem;
   padding: 0.8rem 2.5rem;
 }
 
 #close-explanation:hover {
-  background-color: #065f46;
+  background-color: #0d3a6f;
 }
