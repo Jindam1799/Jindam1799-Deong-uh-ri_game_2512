@@ -1757,7 +1757,7 @@ const sentenceData = {
     {
       id: 'sentence30',
       level: 4,
-      isFinal: falsee,
+      isFinal: false,
       korean: '모두가 자발적으로 팀의 규정을 준수하다.',
       chinese: {
         hanzi: ['自觉', '遵守', '团队', '的', '规定'],
