@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // 문장 카운트 표시 변경
         if (sentence.isFinal) {
-          sentenceCountSpan.innerHTML = `<span style="color: #047857; font-weight: 700;">🎉${sentenceNumber}번째 문장 완성🎉</span>`;
+          sentenceCountSpan.innerHTML = `<span style="color: #124992; font-weight: 700;">🎉${sentenceNumber}번째 문장 완성🎉</span>`;
           koreanSentence.classList.add('final-sentence');
         } else {
           sentenceCountSpan.textContent = `🧱${sentenceNumber}번째 문장의 덩어리🧱`;
