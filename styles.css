@@ -364,10 +364,10 @@ header:after {
 }
 
 .control-buttons {
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 0.3125rem;
   gap: 1rem;
 }
